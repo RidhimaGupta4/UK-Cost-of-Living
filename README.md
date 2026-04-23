@@ -5,7 +5,7 @@
 
 ## 🔴 Live Dashboard
 
-👉 [**Click here to view the interactive dashboard**](https://YOUR_USERNAME.github.io/uk-cost-of-living-dashboard/)
+👉 [**Click here to view the interactive dashboard**](https://RidhimaGupta4.github.io/UK-Cost-of-Living/)
 
 ---
 
