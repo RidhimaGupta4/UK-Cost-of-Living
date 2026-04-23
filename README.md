@@ -313,6 +313,6 @@ MIT — free to use, adapt, and extend for your own portfolio or research.
 
 Built as a UK data analyst / data scientist portfolio project.
 
-**Connect:** [LinkedIn](https://linkedin.com) · [GitHub](https://github.com) · [Portfolio](https://yourportfolio.com)
+**Connect:** [LinkedIn]([https://linkedin.com](https://www.linkedin.com/in/ridhimagupta1623/)) · [GitHub]([https://github.com](https://github.com/RidhimaGupta4)) 
 
 > If this project helped you, please ⭐ star the repo — it helps others find it.
