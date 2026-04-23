@@ -3,6 +3,10 @@
 > An end-to-end data analytics portfolio project built on ONS, CPI, and Land Registry data.  
 > Tracks affordability, rent burden, wage growth, and housing across all 12 UK regions.
 
+## 🔴 Live Dashboard
+
+👉 [**Click here to view the interactive dashboard**](https://YOUR_USERNAME.github.io/uk-cost-of-living-dashboard/)
+
 ---
 
 ## 📌 Project Summary
