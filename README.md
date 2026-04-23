@@ -3,8 +3,7 @@
 > An end-to-end data analytics portfolio project built on ONS, CPI, and Land Registry data.  
 > Tracks affordability, rent burden, wage growth, and housing across all 12 UK regions.
 
-![Affordability Ranking 2024](outputs/01_affordability_ranking_2024.png)
-
+![Affordability Ranking 2024](01_affordability_ranking_2024.png)
 ---
 
 ## 📌 Project Summary
