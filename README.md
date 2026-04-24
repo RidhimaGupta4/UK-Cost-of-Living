@@ -305,8 +305,7 @@ This project was built as a UK data analyst / data scientist portfolio piece. It
 
 ## 📄 Licence
 
-MIT — free to use, adapt, and extend for your own portfolio or research.
-
+MIT — free to use and adapt
 ---
 
 ## 🙋 Author
