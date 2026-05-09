@@ -148,6 +148,15 @@ $$Affordability Index = \frac{Monthly Take-Home - (Rent + Food + Transport)}{Mon
 
 ---
 
+### ⚠️ Project Limitations
+
+This analysis tracks broad regional trends, but the following limitations apply:
+*   **Hyper-local Variation**: Regional averages (e.g., "North West") mask significant sub-regional disparities, such as the cost difference between Manchester city centre and rural Cumbria.
+*   **Disposable Income Variables**: The "Affordability Index" uses a fixed transport estimate and median tax assumptions; it does not account for individual student loan repayments, childcare costs, or varying council tax bands.
+*   **Tenure Assumptions**: The model assumes a private rental or new mortgage scenario; it does not account for social housing rents or long-term homeowners with "paid-off" mortgages who are shielded from the rental crisis.
+
+---
+
 ## 🛠️ Quick Start
 
 ### 1. Clone the repository
@@ -234,6 +243,14 @@ All 7 analytical queries are in `scripts/02_analysis_queries.sql`.
 | `rent_to_income_pct` | float | Rent ÷ take-home × 100 |
 | `house_price_to_income_ratio` | float | House price ÷ annual take-home |
 | `avg_house_price_gbp` | float | Land Registry average house price |
+
+---
+
+### ⚖️ Data Ethics & Privacy
+
+*   **Public Data Alignment**: While the demonstration dataset is synthetic, it is rigorously calibrated against **ONS Consumer Price Indices (CPI)**, **ASHE wage medians**, and **HM Land Registry** price-paid data to ensure the findings mirror the actual economic experience of UK households.
+*   **Anonymity & Aggregation**: The project operates entirely on regional-level aggregates. No individual-level data, household identifiers, or protected characteristics are used, ensuring full compliance with **GDPR** and the **Data Protection Act 2018**.
+*   **Methodological Transparency**: All inflation-adjustment calculations (Real Wage Change) and affordability formulas are clearly documented to ensure the analysis remains objective and reproducible.
 
 ---
 
@@ -333,3 +350,9 @@ Built as a UK data analyst / data scientist portfolio project.
 **Connect:** [LinkedIn](https://www.linkedin.com/in/ridhimagupta1623/) · [GitHub](https://github.com/RidhimaGupta4) 
 
 > If this project helped you, please ⭐ star the repo — it helps others find it.
+
+## 📁 Explore More Projects
+
+*   **[🏠 UK Property Price Predictor](https://github.com/RidhimaGupta4/UK-Property-Price-Predictor)** — High-accuracy ML pipeline for real estate valuation and geospatial analysis.
+*   **[🏥 NHS A&E Wait Time Analysis](https://github.com/RidhimaGupta4/NHS-AE-Wait-Time-Analysis)** — Operational healthcare analytics and trend forecasting.
+*   **[🛒 E-commerce Churn Analysis](https://github.com/RidhimaGupta4/Ecommerce-Churn-Analysis)** — Customer segmentation, RFM modeling, and retention strategy.
