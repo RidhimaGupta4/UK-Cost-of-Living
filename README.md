@@ -130,7 +130,7 @@ A positive real wage change means the worker gained genuine purchasing power. Mo
 
 > **Technical Note:** All synthetic data in this project is calibrated to **ONS 2017-based CPI indices** and **Land Registry price-paid averages**. Real wage calculations utilize official **ASHE (Annual Survey of Hours and Earnings)** medians to ensure the model reflects the actual economic experience of a typical UK worker.
 
-$$Affordability Index = \frac{Monthly Take-Home - (Rent + Food + Transport)}{Monthly Take-Home} \times 100$$
+$$Affordability  Index = \frac{Monthly Take-Home - (Rent + Food + Transport)}{Monthly Take-Home} \times 100$$
 
 ---
 
