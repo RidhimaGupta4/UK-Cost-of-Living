@@ -1,4 +1,8 @@
 # 🇬🇧 UK Cost-of-Living Dashboard — Regional Analysis 2018–2024
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Analytical-CC0000?style=flat-square&logo=postgresql&logoColor=white)
+![ONS Data](https://img.shields.io/badge/Data-ONS%20%2F%20CPI%20%2F%20Land%20Registry-005EB8?style=flat-square)
+![Affordability Index](https://img.shields.io/badge/Metric-Custom%20Affordability%20Index-green?style=flat-square)
 
 > An end-to-end data analytics portfolio project built on ONS, CPI, and Land Registry data.  
 > Tracks affordability, rent burden, wage growth, and housing across all 12 UK regions.
@@ -46,7 +50,7 @@ uk-cost-of-living/
 │       └── cpi.json               # CPI JSON (used by dashboard)
 │
 ├── dashboard/
-│   └── index.html                 # ✅ Fully self-contained interactive dashboard
+│   └── index.html                 # Fully self-contained interactive dashboard
 │
 ├── outputs/
 │   ├── 01_affordability_ranking_2024.png
@@ -140,8 +144,8 @@ A positive real wage change means the worker gained genuine purchasing power. Mo
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/uk-cost-of-living-dashboard.git
-cd uk-cost-of-living-dashboard
+git clone https://github.com/RidhimaGupta4/UK-Cost-of-Living.git
+cd UK-Cost-of-Living
 ```
 
 ### 2. Install Python dependencies
@@ -271,13 +275,13 @@ To switch from synthetic to live ONS data, use the `fetch_ons_data()` stub at th
 
 This project was built as a UK data analyst / data scientist portfolio piece. It demonstrates:
 
-- ✅ End-to-end data pipeline — ingest, clean, transform, model, visualise
-- ✅ Custom KPI design with fully documented methodology
-- ✅ UK public sector data literacy — ONS, CPI basket, Land Registry
-- ✅ Stakeholder-ready outputs — interactive dashboard requires zero technical setup
-- ✅ Production-aware Python — live API stubs, modular scripts, typed comments
-- ✅ SQL analytical thinking — 7 queries covering ranking, trend, cohort, pivot, and shock analysis
-- ✅ Data storytelling — findings framed as business insights, not just numbers
+- End-to-end data pipeline — ingest, clean, transform, model, visualise
+- Custom KPI design with fully documented methodology
+- UK public sector data literacy — ONS, CPI basket, Land Registry
+- Stakeholder-ready outputs — interactive dashboard requires zero technical setup
+- Production-aware Python — live API stubs, modular scripts, typed comments
+- SQL analytical thinking — 7 queries covering ranking, trend, cohort, pivot, and shock analysis
+- Data storytelling — findings framed as business insights, not just numbers
 
 ---
 
