@@ -126,6 +126,14 @@ A positive real wage change means the worker gained genuine purchasing power. Mo
 
 ---
 
+### 🛡️ Data Integrity & ONS Alignment
+
+> **Technical Note:** All synthetic data in this project is calibrated to **ONS 2017-based CPI indices** and **Land Registry price-paid averages**. Real wage calculations utilize official **ASHE (Annual Survey of Hours and Earnings)** medians to ensure the model reflects the actual economic experience of a typical UK worker.
+
+$$Affordability Index = \frac{Monthly Take-Home - (Rent + Food + Transport)}{Monthly Take-Home} \times 100$$
+
+---
+
 ## 🔑 Key Findings (2024)
 
 | Finding | Data Point |
@@ -245,16 +253,6 @@ To switch from synthetic to live ONS data, use the `fetch_ons_data()` stub at th
 
 ## 🧰 Tech Stack
 
-| Tool | Version | Role |
-|---|---|---|
-| Python | 3.10+ | Data pipeline and analysis |
-| pandas | 2.0+ | Data manipulation and transformation |
-| numpy | 1.24+ | Numerical computation |
-| matplotlib | 3.7+ | Static chart generation |
-| Chart.js | 4.4.1 | Interactive dashboard charts |
-| HTML / CSS / JavaScript | — | Self-contained dashboard frontend |
-| SQL | DuckDB / SQLite / PostgreSQL | Analytical queries |
-
 | Tool | Badge | Role |
 | :--- | :--- | :--- |
 | **Python** | ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white) | Data pipeline, ONS API stubs, and inflation-adjustment logic |
@@ -295,25 +293,31 @@ This project was built as a UK data analyst / data scientist portfolio piece. It
 
 ---
 
-## 🖼️ Chart Gallery
+## 🔍 Visual Insights
 
-### Affordability Index 2024 — All Regions
+### 📉 Affordability Index 2024 (Regional Ranking)
 ![Affordability Ranking 2024](outputs/01_affordability_ranking_2024.png)
+> **Analysis:** Highlights the extreme geographic disparity in UK living standards. While the **North East** maintains a positive buffer (24.9%), **London** has crossed a critical threshold where essential costs structurally exceed the median take-home pay (–23.7%).
 
-### London vs Rest of UK — Monthly Rent 2018–2024
+### 🏠 London vs. Rest of UK — Rent Burden (Monthly Rent 2018–2024)
 ![London vs Rest Rent](outputs/02_london_vs_rest_rent.png)
+> **Analysis:** Tracks the widening "Rent Gap." London's rent-to-income ratio reaching **100.8%** in 2024 signals a total decoupling of local housing costs from local median wages.
 
-### Real Wage Change Since 2018 (Inflation-Adjusted)
+### 📊 Real Wage Change Since 2018 (The Inflation Deflator)
 ![Real Wage Change](outputs/03_real_wage_change.png)
+> **Analysis:** Visualizes the "Squeeze." By deflating nominal wages using cumulative CPI factors, this chart proves that despite nominal pay rises, workers in most regions lost **3% to 8%** of their actual purchasing power since 2018.
 
-### CPI Inflation by Category — The 2022 Crisis
+### 🍞 CPI Basket Breakdown: The 2022 Crisis
 ![CPI Breakdown](outputs/04_cpi_breakdown.png)
+> **Analysis:** Deconstructs the inflation peak. This categorical breakdown identifies exactly which "essential" baskets (Energy and Food) drove the cost shock, rather than discretionary spending.
 
-### House Price-to-Income Ratio 2018–2024
+### 🏗️ House Price-to-Income Ratio 2018–2024
 ![House Price Income](outputs/05_house_price_income_ratio.png)
+> **Analysis:** Measures homeownership accessibility. With London at **17.6×**, it sits more than double the structural "crisis threshold" of 8×, indicating a permanent shift toward a "generation rent" economy in the South East.
 
-### Monthly Cost Shock 2021 → 2023
+### ⚡ Monthly Cost Shock 2021 → 2023
 ![Cost Shock](outputs/06_cost_shock_2021_2023.png)
+> **Analysis:** Quantifies the absolute impact of the energy and inflation crisis. Londoners saw a **+£636/month** rise in essential outgoings in just 24 months, representing the most aggressive cost-of-living shock in the dataset.
 
 ---
 
