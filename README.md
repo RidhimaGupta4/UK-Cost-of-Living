@@ -9,7 +9,7 @@
 
 ## 🔴 Live Dashboard
 
-[![View Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-UK%20Cost%20of%20Living-1d4ed8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://RidhimaGupta4.github.io/UK-Cost-of-Living/)
+[![View Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-UK%20Cost%20of%20Living-1d4ed8?style=for-the-badge&logoColor=white)](https://RidhimaGupta4.github.io/UK-Cost-of-Living/)
 
 ---
 
