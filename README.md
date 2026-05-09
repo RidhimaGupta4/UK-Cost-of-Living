@@ -255,6 +255,16 @@ To switch from synthetic to live ONS data, use the `fetch_ons_data()` stub at th
 | HTML / CSS / JavaScript | — | Self-contained dashboard frontend |
 | SQL | DuckDB / SQLite / PostgreSQL | Analytical queries |
 
+| Tool | Badge | Role |
+| :--- | :--- | :--- |
+| **Python** | ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white) | Data pipeline, ONS API stubs, and inflation-adjustment logic |
+| **SQL** | ![SQL](https://img.shields.io/badge/SQL-Analytical-CC0000?style=flat-square&logo=postgresql&logoColor=white) | 7 queries for regional rankings, YoY growth, and shock analysis |
+| **DuckDB** | ![DuckDB](https://img.shields.io/badge/DuckDB-OLAP-FFF000?style=flat-square&logo=duckdb&logoColor=black) | Fast in-memory analytical engine for master dataset queries |
+| **Pandas / NumPy**| ![Data](https://img.shields.io/badge/Pandas_/_NumPy-Data_Processing-150458?style=flat-square&logo=pandas&logoColor=white) | Calculating complex Affordability Indices and Real Wage deflators |
+| **JavaScript** | ![JS](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Dashboard interactivity: year-filtering and regional comparisons |
+| **Chart.js** | ![Chart.js](https://img.shields.io/badge/Chart.js-Visualization-FF6384?style=flat-square&logo=chartdotjs&logoColor=white) | Dynamic, interactive regional cost-breakdown and trend charts |
+| **Matplotlib** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-EDA-11557c?style=flat-square) | Generating publication-ready PNGs for regional rankings |
+
 ---
 
 ## 📈 SQL Queries Included
